@@ -1,0 +1,78 @@
+/* NavigationButtons.css */
+
+/* Full-width container */
+.navigation-container {
+    background-color: #ffffff; /* White background */
+    padding: 16px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Space buttons evenly */
+    width: 100%; /* Full width of the parent/container */
+    max-width: 100%; /* Ensure it doesn't have a max-width constraint */
+    margin: 0; /* No margin around the container */
+  }
+  
+  /* Button styles */
+  .nav-button {
+    background-color: #1d4ed8; 
+    font-size: 24px;/* Blue background */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    padding: 12px 24px; /* Padding inside the buttons */
+    border-radius: 8px; /* Rounded corners for the buttons */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+  }
+  
+  /* Button hover effect */
+  .nav-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  /* Optional: Button focus effect */
+  .nav-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px #3b82f6; /* Add a blue outline on focus */
+  }
+  
+  /* Responsive styles for small devices */
+  @media (max-width: 480px) {  /* You can adjust the value based on your design needs */
+    /* Navigation container adjustments */
+    .navigation-container {
+      flex-direction: column;  /* Stack buttons vertically on small screens */
+      align-items: center;  /* Center align the buttons */
+      padding: 10px; /* Reduce padding */
+    }
+  
+    /* Button styles for small screens */
+    .nav-button {
+      width: 100%;  /* Make buttons full-width */
+      padding: 5px 10px;  /* Smaller padding */
+      font-size: 12px;  /* Smaller font size */
+      height: 30px;  /* Set fixed height */
+      margin-bottom: 5px;  /* Add some space between buttons */
+      text-align: center;  /* Center the text */
+    }
+  }
+  
+  /* Even smaller screens (e.g., 140px width) */
+  @media (max-width: 140px) {
+    .nav-button {
+      width: 100%;  /* Make buttons full-width */
+      padding: 3px 6px;  /* Even smaller padding */
+      font-size: 10px;  /* Even smaller font size */
+      height: 30px;  /* Fixed height of 30px */
+      margin-bottom: 2px;  /* Space between buttons */
+    }
+  
+    .navigation-container {
+      width: 140px; /* Set a fixed width for the navigation container */
+      height: 90px;  /* Set height for the container */
+      padding: 5px;  /* Less padding */
+      flex-direction: column;  /* Stack buttons vertically */
+    }
+  }
+  

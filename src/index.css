@@ -1,0 +1,540 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+    width: 108px;
+    height: 96px;
+    border-radius: 50px;
+}
+.search-button
+{
+   font-size:26px;
+}
+.all-list
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.exploree {
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    background-image: linear-gradient(#d0b200, #a58d00);
+}
+
+#navItem1,#navItem2,#navItem3,#navItem4  {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+.banner-section-bg-container {
+    background-image: url("https://watermark.lovepik.com/photo/50108/4102.jpg_wh1200.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 200px;
+    height: 55px;
+    border-width: 0;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.container{
+    max-width: max-content;
+}
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+.chicken-imagee
+{
+    height:274px;
+    width:410px;
+    border-radius:14px;
+}
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 650px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 34px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 400px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.payment-card-img {
+    width: 135px;
+    height: 120px;
+}
+.payment-card-img1 {
+    width: 140px;
+    height: 120px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 26px;
+}
+
+.thanking-customers-section-img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #2332d7;
+    font-family: "Roboto";
+    font-size: 38px;
+    font-weight: 700;
+}
+.socialphoto
+{
+    width:90px;
+    height:90px;
+}
+
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+#menuSection {
+    display: none;
+    margin-top: 20px;
+}
+.menu-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menu-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+.listt
+{
+    list-style: none;
+}
+.styling
+{
+    color: #183b56;
+    font-family:"Arial, Helvetica, sans-serif";
+    font-weight: 600;
+}
+.login-image
+{
+    margin-right: 10px;;
+}
+.Login-Name
+{
+    font-weight:600;
+}
+.oyy
+{
+    color:blue;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+
+.login-container img {
+    margin-left: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Style for the Login Name text */
+.Login-Name {
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 26px;
+    font-weight:620;
+    color:#333;
+}
+
+/* Hover Effect for both the image and text */
+.login-container:hover img {
+    transform: scale(1.2);  /* Scale the image slightly */
+    opacity: 0.8;           /* Make the image slightly transparent */
+}
+
+.login-container:hover .Login-Name {
+    color: #007bff;         /* Change text color */
+    transform: scale(1.1);  /* Scale the text slightly */
+}
+.add-to-cart
+{
+    color:white;
+    background-color: #007bff;
+    height:40px;
+    width:120px;
+    border-width: 0px;
+    margin-left:30px;
+    border-radius: 8px;
+    font-size:19px;
+}
+.total-cart
+{
+    color:black;
+   font-size: 23px;
+   margin-top: 10px;
+   font-weight: 600;
+}
+.boxx-cart
+{
+    height:35px;
+    width:35px;
+    border-radius: 7px;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.result-cart
+{
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    font-weight:500;
+}
+.price-cart
+{
+color:black;
+font-size:20px;
+margin-left:auto;
+font-size: 26px;
+font-weight: bold;
+font-size: bold;
+}
+.sub-heading
+{
+    color: #183b56;
+    font-size: 35px;
+    font-weight:bold;
+    text-align: left;
+}
+.image-cart
+{
+    height:220px;
+    width:360px;
+    border-radius: 8px;
+}
+.bottomitems
+{
+   color:black;
+   width:50px;
+   height:90px;
+   margin-left: 100px;
+}
+.cart-name
+{
+    color:black;
+    font-size: 26px;
+     margin-left: 100px;
+}
+.backk
+{
+    background-color: white;
+    height:123px;
+}
+.homeitem
+{
+   color:black;
+   width:50px;
+   height:90px;
+   margin-left: 32px;
+}
+.home-name
+{
+    color:black;
+    font-size: 26px;
+    margin-left: 26px;
+}
+.menu-button
+{
+    color:black;
+    font-size: 28px;
+    background-color: #007bff;
+    height:50px;
+    width:140px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left:40px;
+}
+.cart-button
+{
+    color:black;
+    font-size: 28px;
+    background-color: #007bff;
+    height:50px;
+    width:140px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top:20px;
+    margin-left:80px;
+}
+.order-button
+{
+    color:black;
+    font-size: 28px;
+    background-color: #007bff;
+    height:50px;
+    width:140px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top:20px;
+    justify-content: right;
+}
+.add-remove-cart-1
+{
+    font-size:28px;
+    color:white;
+    background-color: rgb(233, 84, 84);
+    border-radius: 8px;
+    width:125px;
+    height:50px;
+    border-width:0px;
+    margin-left:170px;
+}
+.add-remove-cart-2
+{
+    font-size:28px;
+    color:white;
+    background-color: rgb(97, 84, 233);
+    border-radius: 8px;
+    width:125px;
+    height:46px;
+    border-width:0px;
+}
+.cart-heading{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:540;
+    font-size:45px;
+}
+.order-heading{
+    color: black;
+    font-size:45px;
+}
+.subb-cart
+{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight:500;
+}
+.all-cart
+{
+    font-size: 28px;
+    font-weight:500;
+}
+.cart-imageee
+{
+    color:white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.user-icon
+{
+    /* height:60px; */
+    width:50px;
+    color:white;
+    font-weight:500;
+    font-size: 20px;
+    background-color: red;
+    padding-left:20px;
+    border-radius: 180px;
+}
